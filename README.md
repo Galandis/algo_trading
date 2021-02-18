@@ -17,4 +17,5 @@ All rights reserved.
 
 data_downloader - can be used to download data from Oanda API. It is structured to make multiple query in order to download even 10yr of 3m bars. \
 highandlow_csv - this is a class created in order to find highs and lows in price movement. It scans surrounding and picks the extremum.\
-PA_entry_fixed_RR - iterative backtesting for price action strategy.
+PA_entry_fixed_RR - iterative backtesting for price action strategy.\
+ML_logistic - logistic regression used to define if next bar will be increase or decrease. The data is downloaded directly from Oanda API.
